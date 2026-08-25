@@ -2,10 +2,10 @@ public class wrapper{
     public static void main(String[] args){
 
         Integer number1 = new Integer(57); //boxing
-        Integer number2 = new Integer(86); //auto-boxing
+        Integer number2 = new Integer(86); 
 
         Double double1 = new Double(6.74); //formal method for boxing
-        Double double2 = new Double(5.8); //auto-boxing
+        Double double2 = new Double(5.8); 
 
         int year = number2.intValue(); //formal method for unboxing ints
         double average = double1.doubleValue(); //formal method for unboxing doubles
@@ -35,7 +35,7 @@ public class wrapper{
         
      
         
-        int absolute = Math.abs(-7);
+        int absolute = Math.abs(-7); //returns int
         System.out.println(absolute);
 
         double absolute2 = Math.abs(-7.5); //returns double
